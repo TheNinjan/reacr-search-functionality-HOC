@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.color {
+  background: #5255;
+}
+
+.text {
+  text-decoration: black;
+  font-weight: 800;
+  font-size: 25px;
+}
+.text-size {
+  font-size: large;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #5259;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav li {
+  margin: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
